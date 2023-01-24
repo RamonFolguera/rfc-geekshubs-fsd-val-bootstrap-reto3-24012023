@@ -33,15 +33,26 @@
                     <li class="me-2">Login</li>
                 </ul>
             </nav>
-            <nav class="row border navbar navbar-expand-lg bg-primary text-white">
-                <ul class="m-0 col-5 d-flex justify-content-between align-items-center list-unstyled">
+
+            
+
+            <nav class="dropdown row border navbar navbar-expand-lg bg-primary text-white">
+                <bu class="m-0 col-5 d-flex justify-content-between align-items-center list-unstyled text-white">
                     <li>logo</li>
                     <li>dropdown</li>
-                    <li class="dropdown-menu"><i class="fa-solid fa-location-dot pe-3"></i>Home</li>
-                    <li><i class="fa-solid fa-envelope"></i>About</li>
-                    <li><i class="fa-solid fa-gear"></i>Services</li>
-                    <li><i class="fa-solid fa-graduation-cap"></i>Portfolio</li>
-                    <li><i class="fa-regular fa-paper-plane pe-3"></i>Contact</li>
+                    <button class="btn dropdown list-unstyled text-white" data-toggle="dropdown">
+                        <i class="fa-solid fa-location-dot pe-3"></i>
+                        Home
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </div>
+                    <button class="btn dropdown-toggle list-unstyled text-white"><i class="fa-solid fa-envelope"></i>About</button>
+                    <button class="btn dropdown-toggle list-unstyled text-white"><i class="fa-solid fa-gear"></i>Services</button>
+                    <button class="btn dropdown-toggle list-unstyled text-white"><i class="fa-solid fa-graduation-cap"></i>Portfolio</button>
+                    <button class="btn dropdown-toggle list-unstyled text-white"><i class="fa-regular fa-paper-plane pe-3"></i>Contact</button>
                     <li>Mega</li>
                 </ul>
                 <ul class="m-0 col-7 d-flex justify-content-end list-unstyled">
